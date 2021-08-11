@@ -1,0 +1,27 @@
+body {
+	background-color: #1D1F21;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+	flex: 1 0 auto;
+}
+.windows-logo-main {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	width: 80%;
+	height: auto;
+}
+.windows-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 50%;
+	height: auto;
+}
