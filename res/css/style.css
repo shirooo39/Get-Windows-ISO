@@ -1,5 +1,5 @@
 body {
-	background-color: #1D1F21;
+	background-color: #18191A;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -20,17 +20,28 @@ main {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	width: 50%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 70%;
 	height: auto;
 }
-.windows-logo-mobile {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10%;
-	margin-bottom: 10%;
-	width: 75%;
-	height: auto;
+.color-accent-1 {
+	background-color: #242526;
 }
+.download-link-color {
+	color: #0078D4 !important;
+}
+.download-link-color:hover {
+	color: #7ba7c9 !important;
+}
+/**
+.sidenav li.active, li:hover {
+    background-color: #242526;
+}
+.sidenav ul a:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.sidenav ul div:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+**/
