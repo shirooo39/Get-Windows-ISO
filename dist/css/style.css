@@ -1,0 +1,26 @@
+/**
+Main colors for the page.
+Override this block, if you want to change the color of the page. Kind of like a "theme".
+Current color is set to indigo darken-3 (taken from Materialize CSS).
+**/
+.bg--indigo-darken-3 {
+    background-color: #283593; /** Color: indigo darken-3 (taken from Materialize CSS) **/
+}
+.bg--grey-darken-4 {
+    background-color: #212121; /** Color: grey darken-4 (taken from Materialize CSS) **/
+}
+.bg--body {
+    background-color: #18191A;
+}
+.navdrawer-nav .nav-link.active, .navdrawer-nav .nav-link:active {
+    color: #283593;
+}
+a, a:hover {
+    color: #9fa8da;
+}
+
+/** Custom mt (margin-top) for the body container content to compensate the sticky navbar **/
+.mt--custom {
+    margin-top: 5rem;
+}
+  
