@@ -32,10 +32,8 @@
         <header>
             <!---------------------------------------------------- Navbar ---------------------------------------------------->
             <nav class="navbar fixed-top navbar-dark bg--indigo-darken-3">
-                <!---------------------------------------------------- Mavbar Content ---------------------------------------------------->
                 <button aria-controls="navdrawerDefault" aria-expanded="false" aria-label="Toggle Navdrawer" class="navbar-toggler" data-target="#navdrawerDefault" data-toggle="navdrawer"><span class="navbar-toggler-icon"></span></button>
                 <span class="navbar-brand mr-auto">Windows 10</span>
-                <!---------------------------------------------------------------------------------------------------------------->
             </nav>
             <!---------------------------------------------------------------------------------------------------------------->
             <!---------------------------------------------------- Navbar Hamburger Menu ---------------------------------------------------->
@@ -89,7 +87,12 @@
                             <!---------------------------------------------------------------------------------------------------------------->
                             <!---------------------------------------------------- Sidebar Item 5 ---------------------------------------------------->
                             <a class="nav-item nav-link" href="../../windows-vista/index.html">Windows Vista</a>
-                            <a class="nav-item nav-link" href="../../windows-xp/index.html">Windows XP</a>
+                            <a class="nav-item nav-link collapsed" data-toggle="collapse" href="#Windows-XP" aria-expanded="false">Windows XP</a>
+                            <div class="collapse" id="Windows-XP" data-parent="#accordionSidebar">
+                                <a class="nav-item nav-link pl-4 my-0 text-black-secondary" href="../../windows-xp/home_edition.html"><span class="font-weight-normal">Home Edition</span></a>
+                                <a class="nav-item nav-link pl-4 my-0 text-black-secondary" href="../../windows-xp/professional_edition.html"><span class="font-weight-normal">Professional Edition</span></a>
+                                <div class="navdrawer-divider"></div>
+                            </div>
                             <!---------------------------------------------------------------------------------------------------------------->
                         </div>
                     </nav>
