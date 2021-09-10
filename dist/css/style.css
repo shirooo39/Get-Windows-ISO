@@ -23,4 +23,14 @@ a, a:hover {
 .mt--custom {
     margin-top: 5rem;
 }
-  
+
+/** Add btn-primary class to the download buttons **/
+.btn-primary.focus, .btn-primary:focus {
+    background-image: linear-gradient(180deg,hsla(0,0%,0%,.0),hsla(0,0%,0%,.0));
+}
+.navdrawer-nav .nav-link:active, .navdrawer-nav .nav-link:focus {
+    background-color: transparent;
+}
+.navdrawer-nav .nav-link.active, .navdrawer-nav .nav-link:active {
+    color: #283593;
+}
