@@ -10,7 +10,10 @@ Current color is set to indigo darken-3 (taken from Materialize CSS).
     background-color: #212121; /** Color: grey darken-4 (taken from Materialize CSS) **/
 }
 .bg--body {
-    background-color: #18191A;
+    background-color: #121212;
+}
+.bg--card {
+    background-color: #1e1e1e;
 }
 .navdrawer-nav .nav-link.active, .navdrawer-nav .nav-link:active {
     color: #283593;
@@ -33,4 +36,9 @@ a, a:hover {
 }
 .navdrawer-nav .nav-link.active, .navdrawer-nav .nav-link:active {
     color: #283593;
+}
+
+/** Disables the highlight effect on the hamburger menu **/
+.navbar-toggler::before {
+    background-color: transparent !important;
 }

@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Favicons -->
         <link rel="apple-touch-icon" sizes="180x180" href="../../dist/img/icons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="../../dist/img/icons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="../../dist/img/icons/favicon-16x16.png">
@@ -16,13 +14,10 @@
         <meta name="msapplication-TileColor" content="#2b5797">
         <meta name="msapplication-config" content="../../dist/img/icons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-        <!-- Add Material font (Roboto) and Material icon as needed -->
         <link rel="preconnect" href="https://fonts.gstatic.com/">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&family=Roboto+Slab:wght@300;400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
         <link href="../../dist/css/google/material-icons/material-icons.min.css" rel="stylesheet">
-        <!-- Material CSS -->
         <link href="../../dist/css/material/material.min.css" rel="stylesheet">
-        <!-- Optional Material CSS for Plugins -->
         <link href="../../dist/css/material/material-plugins.min.css" rel="stylesheet">
         <link rel="stylesheet" href="../../dist/css/waves/waves.min.css">
         <link rel="stylesheet" href="../../dist/css/style.css">
@@ -30,15 +25,18 @@
     </head>
     <body class="bg--body">
         <header>
-            <!---------------------------------------------------- Navbar ---------------------------------------------------->
             <nav class="navbar fixed-top navbar-dark bg--indigo-darken-3">
-                <!---------------------------------------------------- Mavbar Content ---------------------------------------------------->
                 <button aria-controls="navdrawerDefault" aria-expanded="false" aria-label="Toggle Navdrawer" class="navbar-toggler" data-target="#navdrawerDefault" data-toggle="navdrawer"><span class="navbar-toggler-icon"></span></button>
                 <span class="navbar-brand mr-auto">Windows XP</span>
-                <!---------------------------------------------------------------------------------------------------------------->
+                <div class="dropdown">
+                    <span class="material-icons" id="dropdownMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        more_vert
+                    </span>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">About</a>
+                    </div>
+                </div>
             </nav>
-            <!---------------------------------------------------------------------------------------------------------------->
-            <!---------------------------------------------------- Navbar Hamburger Menu ---------------------------------------------------->
             <div aria-hidden="true" class="navdrawer" id="navdrawerDefault" tabindex="-1">
                 <div class="navdrawer-content">
                     <div class="navdrawer-header">
@@ -90,22 +88,19 @@
                     </nav>
                 </div>
             </div>
-            <!---------------------------------------------------------------------------------------------------------------->
         </header>
         <main>
             <div class="container">
-                <!-- Content here -->
                 <div class="row justify-content-center mt--custom mb-4">
                     <!---------------------------------------------------- Card 3 ---------------------------------------------------->
                     <div class="col-12 col-md-10 mb-3">
-                        <div class="card bg--grey-darken-4">
+                        <div class="card bg--card">
                             <div class="card-body">
                                 <button type="button" class="close" data-toggle="modal" data-target="#card3">
                                     <span aria-hidden="false" style="color: #FFFFFF;">&#10247;</span>
                                 </button>
                                 <h5 class="card-title text-light">Windows XP Home Edition</h5>
                                 <h6 class="card-subtitle mb-2 text-light">Service Pack 3</h6>
-                                <!--<p class="card-text text-light"></p>-->
                                 <a href="" target="_blank" class="btn btn-primary disabled bg--indigo-darken-3 text-light">Download x32</a>
                             </div>
                         </div>
@@ -122,11 +117,11 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="container-fluid">
-                                        File name: 
+                                        File name: en_windows_xp_home_with_service_pack_3_x86_cd_x14-92413.iso
                                         <ul>
-                                            <li>MD5: </li>
-                                            <li>SHA-1: </li>
-                                            <li>SHA-256: </li>
+                                            <li>MD5: a22030df1988445436f300bc29c32dd2</li>
+                                            <li>SHA-1: 5a6b959ad24d15dc7ebd85e501b83d105d1b37c6</li>
+                                            <li>SHA-256: 93b404cdab9e135f63be4cd3d4b9d8eeb47353bea46e44231cf4bd26aad89de9</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -136,14 +131,13 @@
                     <!---------------------------------------------------------------------------------------------------------------->
                     <!---------------------------------------------------- Card 2 ---------------------------------------------------->
                     <div class="col-12 col-md-10 mb-3">
-                        <div class="card bg--grey-darken-4">
+                        <div class="card bg--card">
                             <div class="card-body">
                                 <button type="button" class="close" data-toggle="modal" data-target="#card2">
                                     <span aria-hidden="false" style="color: #FFFFFF;">&#10247;</span>
                                 </button>
                                 <h5 class="card-title text-light">Windows XP Home Edition</h5>
                                 <h6 class="card-subtitle mb-2 text-light">Service Pack 2</h6>
-                                <!--<p class="card-text text-light"></p>-->
                                 <a href="" target="_blank" class="btn btn-primary disabled bg--indigo-darken-3 text-light">Download x32</a>
                             </div>
                         </div>
@@ -160,11 +154,11 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="container-fluid">
-                                        File name: 
+                                        File name: en_winxp_home_with_sp2.iso
                                         <ul>
-                                            <li>MD5: </li>
-                                            <li>SHA-1: </li>
-                                            <li>SHA-256: </li>
+                                            <li>MD5: dd9a03f8389dfeeb344a5f642d8b1700</li>
+                                            <li>SHA-1: 2306b5be4a068a5651b5d6c667d8149c8a6c4fe4</li>
+                                            <li>SHA-256: b4d1f8532bdec9b2ed6b6cf68bf2e95c9b13d5d7e207f9914daebe9fbf97b74e</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -174,14 +168,13 @@
                     <!---------------------------------------------------------------------------------------------------------------->
                     <!---------------------------------------------------- Card 1 ---------------------------------------------------->
                     <div class="col-12 col-md-10">
-                        <div class="card bg--grey-darken-4">
+                        <div class="card bg--card">
                             <div class="card-body">
                                 <button type="button" class="close" data-toggle="modal" data-target="#card1">
                                     <span aria-hidden="false" style="color: #FFFFFF;">&#10247;</span>
                                 </button>
                                 <h5 class="card-title text-light">Windows XP Home Edition</h5>
                                 <h6 class="card-subtitle mb-2 text-light">Original</h6>
-                                <!--<p class="card-text text-light"></p>-->
                                 <a href="" target="_blank" class="btn btn-primary disabled bg--indigo-darken-3 text-light">Download x32</a>
                             </div>
                         </div>
