@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Favicons -->
         <link rel="apple-touch-icon" sizes="180x180" href="../../dist/img/icons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="../../dist/img/icons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="../../dist/img/icons/favicon-16x16.png">
@@ -16,13 +14,10 @@
         <meta name="msapplication-TileColor" content="#2b5797">
         <meta name="msapplication-config" content="../../dist/img/icons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-        <!-- Add Material font (Roboto) and Material icon as needed -->
         <link rel="preconnect" href="https://fonts.gstatic.com/">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&family=Roboto+Slab:wght@300;400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
         <link href="../../dist/css/google/material-icons/material-icons.min.css" rel="stylesheet">
-        <!-- Material CSS -->
         <link href="../../dist/css/material/material.min.css" rel="stylesheet">
-        <!-- Optional Material CSS for Plugins -->
         <link href="../../dist/css/material/material-plugins.min.css" rel="stylesheet">
         <link rel="stylesheet" href="../../dist/css/waves/waves.min.css">
         <link rel="stylesheet" href="../../dist/css/style.css">
@@ -30,7 +25,6 @@
     </head>
     <body class="bg--body">
         <header>
-            <!---------------------------------------------------- Navbar ---------------------------------------------------->
             <nav class="navbar fixed-top navbar-dark bg--indigo-darken-3">
                 <button aria-controls="navdrawerDefault" aria-expanded="false" aria-label="Toggle Navdrawer" class="navbar-toggler" data-target="#navdrawerDefault" data-toggle="navdrawer"><span class="navbar-toggler-icon"></span></button>
                 <span class="navbar-brand mr-auto">Windows 8</span>
@@ -43,8 +37,6 @@
                     </div>
                 </div>
             </nav>
-            <!---------------------------------------------------------------------------------------------------------------->
-            <!---------------------------------------------------- Navbar Hamburger Menu ---------------------------------------------------->
             <div aria-hidden="true" class="navdrawer" id="navdrawerDefault" tabindex="-1">
                 <div class="navdrawer-content">
                     <div class="navdrawer-header">
@@ -76,7 +68,12 @@
                                 <a class="nav-item nav-link pl-4 my-0 text-black-secondary" href="../windows-10/semi-annual_channel.html"><span class="font-weight-normal">Semi-Annual Channel</span></a>
                                 <div class="navdrawer-divider"></div>
                             </div>
-                            <a class="nav-item nav-link" href="../windows-8.1/index.html">Windows 8.1</a>
+                            <a class="nav-item nav-link collapsed" data-toggle="collapse" href="#Windows-8-1" aria-expanded="false">Windows 8.1</a>
+                            <div class="collapse" id="Windows-8-1" data-parent="#accordionSidebar">
+                                <a class="nav-item nav-link pl-4 my-0 text-black-secondary" href="../windows-8.1/original.html"><span class="font-weight-normal">Original</span></a>
+                                <a class="nav-item nav-link pl-4 my-0 text-black-secondary" href="../windows-8.1/update.html"><span class="font-weight-normal">with Update</span></a>
+                                <div class="navdrawer-divider"></div>
+                            </div>
                             <a class="nav-item nav-link" href="../windows-8/index.html">Windows 8</a>
                             <a class="nav-item nav-link collapsed" data-toggle="collapse" href="#Windows-7" aria-expanded="false">Windows 7</a>
                             <div class="collapse" id="Windows-7" data-parent="#accordionSidebar">
@@ -96,11 +93,9 @@
                     </nav>
                 </div>
             </div>
-            <!---------------------------------------------------------------------------------------------------------------->
         </header>
         <main>
             <div class="container">
-                <!-- Content here -->
                 <div class="row justify-content-center mt--custom mb-4">
                     <!---------------------------------------------------- Card 1 ---------------------------------------------------->
                     <div class="col-12 col-md-10">
@@ -129,12 +124,10 @@
         </main>
         <footer>
         </footer>
-        <!-- jQuery, Bootstrap Bundle (includes Popper) and Material -->
         <script src="../../dist/js/jquery/3.5.1/jquery.slim.min.js"></script>
         <script src="../../dist/js/bootstrap/4.6.0/bootstrap.bundle.min.js"></script>
         <script src="../../dist/js/material/material.min.js"></script>
         <script src="../../dist/js/waves/waves.min.js"></script>
-        <!-- Attach waves (ripple) to a DOM object -->
         <script src="../../dist/js/javascript.js"></script> 
     </body>
 </html>
