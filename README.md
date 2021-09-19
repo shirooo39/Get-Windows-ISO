@@ -1,5 +1,5 @@
 # About
-A simple github-pages created using an updated fork of Daemonite's Material UI for Bootstrap 4, djibe's Material UI 2 for Bootstrap 4.<br>
+This is just an extremely simple github-pages that I created for learning web development (I know I'm suck and codes look like garbage, but please don't laugh at it. I'm a complete beginner). Created using an updated fork of Daemonite's Material UI for Bootstrap 4, djibe's Material UI 2 for Bootstrap 4.<br>
 ISOs are only for the English (US) language and 100% clean, untouched, and has been hash (MD5, SHA-1, SHA-256) verified!
 <br><br>
 Please keep in mind that I do NOT accept any request!<br>
